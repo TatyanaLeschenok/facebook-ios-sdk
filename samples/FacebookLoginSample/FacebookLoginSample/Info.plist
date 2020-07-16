@@ -13,6 +13,8 @@
 	</array>
 	<key>FacebookAppID</key>
 	<string>519407811443977</string>
+	<key>FacebookAutoInitEnabled</key>
+	<false/>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>fbapi</string>

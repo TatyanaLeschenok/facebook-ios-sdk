@@ -36,6 +36,7 @@ class LoginManagerViewController: LoginViewController {
     }
 
     @IBAction func toggleLoginState() {
+        ApplicationDelegate.initializeSDK(nil)
         let loginManager = LoginManager()
 
         guard !isLoggedIn else {
